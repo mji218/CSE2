@@ -67,6 +67,7 @@ public class Arithmetic{
         double actualPaid$=actualPaid2$/100;
         
         //print statements
+        
         System.out.println("Number of socks bought was: "+nSocks); //print the numer of socks bought
         System.out.println("Number of glasses bought was: "+nGlasses); //print the number of glasses bought
         System.out.println("Number of boxes of envelopes bought was: "+nEnvelopes); //print the number of envelopes bought
