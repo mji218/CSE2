@@ -17,8 +17,6 @@ import java.lang.*; //import thingy
        double randomNumber= (randomN*4000)+1000;
        int currentBalance = (int) randomNumber;
        System.out.println("Balance $"+currentBalance); //show random number
-       
-      //int currentBalance=(int) (Math.random()*10);
       
       System.out.print("Would you like to deposit money, withdraw money, or view your balance?: "); //prompt user for an action
       String firstAction=myScanner.next(); //accepts user input
