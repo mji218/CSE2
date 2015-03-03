@@ -70,7 +70,6 @@ public class Cookies {
           else{ //DETERMINE ODD 
             System.out.println("You have enough, but they will not divide evenly.");
            //  System.out.println("You do not have enough cookies.  You need "+ )
-           
           
           int moreCookies = 0;
           
