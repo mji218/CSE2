@@ -8,23 +8,21 @@ import java.util.Random;
 public class SmileGenerator {
     public static void main(String[] args) {  //main method
     
-    int counter=0;
+    int counter=1;
     
     //Step 4
     int rand= (int) (Math.random()*100)+1;
     
     while (counter<=rand) {
        int cap=0;
-       int num=1;
-       while (cap < num) {
+       while (cap < counter) {
            System.out.print(":)");
            cap++;
-           num++;
-       }//end for loop
+       }//end while loop
        System.out.println("");
+       counter++;
     }//end while loop
-       System.out.println("");
-       DONT DO THIS AGAIN!!!!!
+
        
        
        
