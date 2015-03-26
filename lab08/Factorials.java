@@ -5,7 +5,7 @@
 
 //import java.util.Scanner;
 public class Factorials {
-    //public static void main(String[] args){
+    public static void main(String[] args){
     //public static int factorial(int input) {
        /* int x=1;
         int i;
@@ -30,22 +30,19 @@ public class Factorials {
         }//end addition for loop
         print(input, result); */
         
-        public static int perplex(int x,int y){
-	x+=3;
-	y+=x;
-	if(y>x+2){ return x; }
-	return x+y;
-}
 
-public static void main( String args[] ){
-	int x=-4,z=7;
-	int y=perplex(z,x);
-	System.out.println(y+" "+x);		//(a)
-	x=10;
-	y=perplex(x,x);
-	System.out.println(y+ " " + x);	//(b)
-     System.out.println( perplex(5, 1+perplex(6,7)));	//(c)
 //}
-    
+for(int i=1; i<=5; i++){
+    for(int j=0; i>j; j++){
+        System.out.print(i-1);
+    }
+    System.out.println();
+}
+for(int i=6; i<=10; i++){
+    for(int j=5; 0<j; j--){
+        System.out.print(i-1);
+    }
+    System.out.println();
+}
     }// end main method
 } // end class

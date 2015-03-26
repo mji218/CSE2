@@ -131,11 +131,4 @@ public class HW8 {
         System.out.println("Hero! Have a good day!");
     }//end main mehthod
     
-    
-    
-    
-    
-    
-    
-    
 }//end class
